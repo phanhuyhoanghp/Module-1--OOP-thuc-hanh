@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="Rectangle.js"></script>
+<script>
+    let rec=new Rectangle(20,10);
+    rec.draw();
+    document.write("<br>Dien tich la: "+rec.area());
+    document.write("<br>Chu vi la: "+rec.perimeter());
+    rec.width=200;
+    rec.height=100;
+    rec.draw();
+    document.write("<br>Dien tich la: "+rec.area());
+    document.write("<br>Chu vi la: "+rec.perimeter());
+</script>
+</body>
+</html>
