@@ -4,7 +4,6 @@
     <list default="true" id="7bcb2a8a-249c-48ab-935e-99fac95f0552" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Rectangle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rectangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <workItem from="1606784835940" duration="326000" />
       <workItem from="1606892053072" duration="17396000" />
       <workItem from="1606957630002" duration="8657000" />
-      <workItem from="1606977237267" duration="966000" />
+      <workItem from="1606977237267" duration="3319000" />
     </task>
     <servers />
   </component>

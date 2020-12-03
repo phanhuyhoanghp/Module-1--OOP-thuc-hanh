@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+<canvas id="rectangle" width="450" height="350" style="border:1px solid blue;"></canvas>
 <script>
     // rec.draw();
     // document.write("<br>Dien tich la: "+rec.area());
@@ -14,45 +15,50 @@
     // rec.draw();
     // document.write("<br>Dien tich la: "+rec.area());
     // document.write("<br>Chu vi la: ")
-    class Rectangle{
-        constructor (width,height){
-            this.width=width;
-            this.height=height;
-        }
-        get width() {
-            return  this.width;
+    class Rectangle {
+        constructor(width, height) {
+            this.width = width;
+            this.height = height;
         }
 
-        set width(value) {
+        get _width() {
+            return this.width;
+        }
+
+        set _width(value) {
             this.width = value;
         }
 
-        get height() {
+        get _height() {
             return this.height;
         }
 
-        set height(value) {
+        set _height(value) {
             this.height = value;
         }
+
         get area() {
-            return this.width*this.height;
-        }
-        get perimeter() {
-            return (this.height+this.width)*2;
+            return this.width * this.height;
         }
 
+        get perimeter() {
+            return (this.height + this.width) * 2;
+        }
     }
+
     let rec = new Rectangle(20, 10);
-    let width=rec.this.width();
-    let height=rec.this.height();
-    let area=rec.this.area();
-    let perimeter=rec.this.perimeter();
-    console.log(rec);
+    let width = rec.width;
+    let height = rec.height;
+    let area = rec.area;
+    let perimeter = rec.perimeter
     console.log(width);
     console.log(height);
     console.log(area);
     console.log(perimeter);
+    let ctx = document.getElementById("rectangle").getContext("2d");
+    ctx.beginPath();//bat dau ve
+    ctx.rect(20, 20, 150, 100);//ve hcn voi toa do x,y,dai,rong
+    ctx.stroke();// Hien vien hcn
 </script>
-
 </body>
 </html>
