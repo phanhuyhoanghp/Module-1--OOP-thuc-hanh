@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bcb2a8a-249c-48ab-935e-99fac95f0552" name="Default Changelist" comment="" />
+    <list default="true" id="7bcb2a8a-249c-48ab-935e-99fac95f0552" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rectangle.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rectangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Rectangle.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1koCtl6TZsl50TwgxBd1teNbCaF" />
   <component name="ProjectViewState">
@@ -53,7 +60,9 @@
       <workItem from="1606707791328" duration="4956000" />
       <workItem from="1606718164600" duration="1646000" />
       <workItem from="1606784835940" duration="326000" />
-      <workItem from="1606892053072" duration="16242000" />
+      <workItem from="1606892053072" duration="17396000" />
+      <workItem from="1606957630002" duration="8657000" />
+      <workItem from="1606977237267" duration="966000" />
     </task>
     <servers />
   </component>
@@ -61,10 +70,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1606708324907">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1606960949519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606708324907" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606960949519" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606785160455">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -73,5 +82,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606705521429" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606977900663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606977900663" />
   </component>
 </project>

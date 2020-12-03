@@ -5,17 +5,54 @@
     <title>Title</title>
 </head>
 <body>
-<script src="Rectangle.js"></script>
 <script>
-    let rec=new Rectangle(20,10);
-    rec.draw();
-    document.write("<br>Dien tich la: "+rec.area());
-    document.write("<br>Chu vi la: "+rec.perimeter());
-    rec.width=200;
-    rec.height=100;
-    rec.draw();
-    document.write("<br>Dien tich la: "+rec.area());
-    document.write("<br>Chu vi la: "+rec.perimeter());
+    // rec.draw();
+    // document.write("<br>Dien tich la: "+rec.area());
+    // document.write("<br>Chu vi la: "+rec.perimeter());
+    // rec.width=200;
+    // rec.height=100;
+    // rec.draw();
+    // document.write("<br>Dien tich la: "+rec.area());
+    // document.write("<br>Chu vi la: ")
+    class Rectangle{
+        constructor (width,height){
+            this.width=width;
+            this.height=height;
+        }
+        get width() {
+            return  this.width;
+        }
+
+        set width(value) {
+            this.width = value;
+        }
+
+        get height() {
+            return this.height;
+        }
+
+        set height(value) {
+            this.height = value;
+        }
+        get area() {
+            return this.width*this.height;
+        }
+        get perimeter() {
+            return (this.height+this.width)*2;
+        }
+
+    }
+    let rec = new Rectangle(20, 10);
+    let width=rec.this.width();
+    let height=rec.this.height();
+    let area=rec.this.area();
+    let perimeter=rec.this.perimeter();
+    console.log(rec);
+    console.log(width);
+    console.log(height);
+    console.log(area);
+    console.log(perimeter);
 </script>
+
 </body>
 </html>
