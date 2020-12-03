@@ -14,7 +14,6 @@ function Rectangle(width,height) {
     this.setHeight=function (newHeight) {
         this.height=newHeight;
     }
-
     this.area=function () {
         return this.width*this.height;
         // return width*height;

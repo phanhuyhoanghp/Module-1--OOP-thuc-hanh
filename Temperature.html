@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp mô tả Temperature</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(temperature) {
+            this._temperature=temperature;
+        }
+        getTemperature(){
+            return this._temperature;
+        }
+        setTemperature(value){
+            this._temperature=value;
+        }
+        convertF(){
+            document.write(this._temperature+' độ C'+'. Khi chuyển đổi sang độ F: '+(this._temperature*1.8+32)+' độ F');
+        }
+        convertK(){
+            document.write("<br>"+this._temperature+'độ C'+'. Khi chuyển đổi sang độ K: '+(this._temperature+273.15)+' độ Kelvin');
+
+        }
+    }
+    let temp=new Temperature(+prompt());
+    let oF=temp.convertF();
+    let oK=temp.convertK();
+
+</script>
+</body>
+</html>
