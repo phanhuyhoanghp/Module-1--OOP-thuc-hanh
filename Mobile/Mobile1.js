@@ -5,9 +5,15 @@ class Mobile1 {
         this._inbox=inbox;
         this._sent=sent; // nokia._battery
     }
-    get tralaitaopin() {
+
+    get battery() {
         return this._battery;
     }
+
+    set battery(value) {
+        this._battery = value;
+    }
+
     get draf() {
         return this._draf;
     }
