@@ -1,4 +1,4 @@
-class Mobile11{
+class Mobile_ok{
     constructor(battery,draft,inbox,sent) {
         this._battery=battery;
         this._draft=draft;
@@ -105,6 +105,6 @@ class Mobile11{
         this._status = !this._status;
     }
 }
-let nokia=new Mobile11(22,"",[],[]);
-let samsung=new Mobile11(22,"",[],[]);
-let motorola=new Mobile11(22,"",[],[]);
+let nokia=new Mobile_ok(22,"",[],[]);
+let samsung=new Mobile_ok(22,"",[],[]);
+let motorola=new Mobile_ok(22,"",[],[]);
