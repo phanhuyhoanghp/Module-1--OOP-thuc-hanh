@@ -1,11 +1,11 @@
 class Mobile1 {
-    constructor(battery,draf,inbox,sent) {
-        this._battery=battery;
+    constructor(battery,draf,inbox,sent) {// tham số
+        this._battery=battery;// thuộc tính = giá trị
         this._draf=draf;
         this._inbox=inbox;
-        this._sent=sent;
+        this._sent=sent; // nokia._battery
     }
-    get battery() {
+    get tralaitaopin() {
         return this._battery;
     }
     get draf() {
@@ -37,21 +37,23 @@ class Mobile1 {
     receive(mobile){
         this._inbox.push(mobile._draf);
         mobile._sent.push(mobile._draf);
-        this._draf="";
+        mobile._draf="";
         this._battery--;
     }
-    sent(mobile){
-        mobile._inbox.push(this._draf);
+    send (mobile){
         this._sent.push(this._draf);
-        this._draf="";
-        this._battery--;
+        mobile._inbox.push(this._draf);
+        this._draf=[];
+        this._battery --;
+    }
+    deleteAllSent(){
+        this._sent=[];
+    }
+    deleteSent(i,j){
+        this._sent.splice(i,1);
+        this._sent.splice(j,1);
     }
 }
-let nokia=new Mobile1(22,"",[],[])
+let nokia=new Mobile1(22,"",[],[])// đối tượng mới của lớp Mobile 1
 let motorola=new Mobile1(22,"",[],[])
 let samsung=new Mobile1(22,"",[],[])
-console.log(nokia.battery)
-console.log(nokia.writeMessage("jfhsj"));
-console.log(nokia.draf)
-console.log(motorola.inbox);
-console.log(motorola.sent(samsung))
