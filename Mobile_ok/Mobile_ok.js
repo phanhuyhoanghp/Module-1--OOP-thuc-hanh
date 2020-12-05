@@ -1,6 +1,6 @@
-class Mobile_ok{
-    constructor(battery,draft,inbox,sent) {
-        this._battery=battery;
+class Mobile{
+    constructor(battery,draft,inbox,sent) { // tham số
+        this._battery=battery; // thuộc tính = giá trị
         this._draft=draft;
         this._inbox=inbox;
         this._sent=sent;
@@ -38,6 +38,7 @@ class Mobile_ok{
     set sent(value) {
         this._sent = value;
     }
+    // Viết hàm soạn tin nhắn
     writeMessage(mess){
         if(this._status){
             this._draft=mess;
@@ -46,6 +47,7 @@ class Mobile_ok{
             console.log("DT đang tắt")
         }
     }
+    // Viết hàm gửi tin nhắn
     send(mobile){
         if(this._status){
             this._sent.push(this._draft);
@@ -58,18 +60,18 @@ class Mobile_ok{
             console.log("DT đang tắt")
         }
     }
-    receive(mobile){
+    receive(mobile){ // Hàm nhận tin nhắn
         if (this._status){
-            this._inbox.push(mobile._draf);
-            mobile._sent.push(mobile._draf);
-            mobile._draf=[];
+            this._inbox.push(mobile._draf); // Thêm vào danh sách hộp thư đến thư nháp của tham số mobile
+            mobile._sent.push(mobile._draf); // Thêm vào danh sách hộp thư đã gửi thư nháp của tham số mobile
+            mobile._draf="";// Làm trống như nháp của tham só mobile
             this._battery--;
         }
         else {
             console.log("DT đang tắt")
         }
     }
-    deleteAllSend(){
+    deleteAllSend(){ // Xóa tất cả tin nhắn đã gửi
         if(this._status){
             this._sent=[];
         }
@@ -77,7 +79,7 @@ class Mobile_ok{
             console.log("DT đang tắt")
         }
     }
-    deleteSend(i){
+    deleteSend(i){ // Xóa 1 tin nhẵn đã gửi
         if(this._status){
             this._sent.splice(i);
         }
@@ -85,7 +87,7 @@ class Mobile_ok{
             console.log("DT đang tắt")
         }
     }
-    deleteAllInbox(){
+    deleteAllInbox(){ // Xóa tất cả tin nhắn đã nhận
         if(this._status){
             this._inbox=[];
         }
@@ -93,7 +95,7 @@ class Mobile_ok{
             console.log("DT đang tắt")
         }
     }
-    deleteInbox(i){
+    deleteInbox(i){ // Xóa 1 tin nhắn
         if(this._status){
             this._inbox.splice(i);
         }
@@ -101,10 +103,10 @@ class Mobile_ok{
             console.log("DT đang tắt")
         }
     }
-    turnOnOff(){
+    turnOnOff(){ // Bật tắt đthoai
         this._status = !this._status;
     }
 }
-let nokia=new Mobile_ok(22,"",[],[]);
-let samsung=new Mobile_ok(22,"",[],[]);
-let motorola=new Mobile_ok(22,"",[],[]);
+let nokia=new Mobile(22,"",[],[]);
+let samsung=new Mobile(22,"",[],[]);
+let motorola=new Mobile(22,"",[],[]);

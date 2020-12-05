@@ -13,9 +13,7 @@ class FlashLamp {
         if(!this._battery.isEmpty()){
             alert("Den sang. Pin con lai la " + this._battery.getEnergy());
         }
-
     }
-
     turnOff(){
         alert("Tat den")
     }
