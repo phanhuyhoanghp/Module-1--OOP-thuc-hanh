@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp mô phỏng hoạt động của đèn pin </title>
+    <script src="Battery.js"></script>
+    <script src="FlashLamp.js"></script>
+</head>
+<body>
+<button onclick="flashLamp.switchLamp()">Cong tac</button>
+<button onclick="charge()">Sac pin</button>
+<script>
+    let battery=new Battery();
+    let flashLamp=new FlashLamp();
+    flashLamp.connectToBattery(battery);
+
+    function charge() {
+        battery.setFullEnergy();
+        alert("Da sac day pin")
+    }
+
+</script>
+</body>
+</html>
