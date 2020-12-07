@@ -20,8 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bcb2a8a-249c-48ab-935e-99fac95f0552" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cat_rat/Cat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cat_rat/Rat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cat_rat/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mobile/Mobile_ok.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mobile/Mobile_ok.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_Cat_Rat/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_Cat_Rat/.idea/demo_Cat_Rat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_Cat_Rat/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_Cat_Rat/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_Cat_Rat/Cat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_Cat_Rat/Rat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_Cat_Rat/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_Cat_Rat/main.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +58,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FlashLamp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -87,6 +97,11 @@
       <workItem from="1607044294473" duration="20171000" />
       <workItem from="1607096718724" duration="599000" />
       <workItem from="1607131135166" duration="3843000" />
+      <workItem from="1607143921230" duration="869000" />
+      <workItem from="1607223174853" duration="762000" />
+      <workItem from="1607224811184" duration="608000" />
+      <workItem from="1607271724054" duration="1293000" />
+      <workItem from="1607303218145" duration="3287000" />
     </task>
     <servers />
   </component>
@@ -104,31 +119,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="535" y="279" key="#Updates" timestamp="1607131347679">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="535" y="279" key="#Updates/0.0.1536.824@0.0.1536.824" timestamp="1607131347679" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1607071704932">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607071704932" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607135936115">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607135936115" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1607048359028">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1607048359028" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1606705521429">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606705521429" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1607056252334">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1607056252334" />
   </component>
 </project>
