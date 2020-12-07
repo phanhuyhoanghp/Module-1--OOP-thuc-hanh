@@ -1,10 +1,11 @@
 class Mobile{
-    constructor(battery,draft,inbox,sent) { // tham số
+    constructor(battery,name) { // tham số
         this._battery=battery; // thuộc tính = giá trị
-        this._draft=draft;
-        this._inbox=inbox;
-        this._sent=sent;
+        this._draft=``;
+        this._inbox=[];
+        this._sent=[];
         this._status = true;
+        this.name=name;
     }
 
     get battery() {
@@ -29,6 +30,7 @@ class Mobile{
 
     set inbox(value) {
         this._inbox = value;
+        /*this.inbox.push(value);*/
     }
 
     get sent() {
@@ -107,6 +109,3 @@ class Mobile{
         this._status = !this._status;
     }
 }
-let nokia=new Mobile(22,"",[],[]);
-let samsung=new Mobile(22,"",[],[]);
-let motorola=new Mobile(22,"",[],[]);

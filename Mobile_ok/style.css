@@ -1,0 +1,12 @@
+.new_phone {
+    width:400px;
+    height:500px;
+    border:1px solid green;
+    display:inline-block;
+}
+
+.phone_screen {
+    width:100%;
+    height:70%;
+    border:1px solid red;
+}
